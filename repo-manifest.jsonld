@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/explosion/weasel/commit/0e688d4424632fb70d474759bff3ade4f08e1dfb",
       "git:hexsha": "0e688d4424632fb70d474759bff3ade4f08e1dfb",
-      "repolex:parseStatus": "metadata_complete"
+      "repolex:parseStatus": "ast_complete"
     },
     {
       "@id": "https://repolex.ai/r/explosion/weasel/commit/f9424269e2291218a21f423615676bd3e3c2a82b",
