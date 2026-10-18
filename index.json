@@ -1,0 +1,11 @@
+{
+  "org": "explosion",
+  "repo": "weasel",
+  "versions": [
+    {
+      "commit": "0e688d4424632fb70d474759bff3ade4f08e1dfb",
+      "tag": "",
+      "parsed_at": "2026-10-18T13:35:08.552345+00:00"
+    }
+  ]
+}
