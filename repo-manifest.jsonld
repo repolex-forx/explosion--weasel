@@ -8,7 +8,8 @@
     {
       "@id": "https://repolex.ai/r/explosion/weasel/commit/0e688d4424632fb70d474759bff3ade4f08e1dfb",
       "git:hexsha": "0e688d4424632fb70d474759bff3ade4f08e1dfb",
-      "repolex:parseStatus": "ast_complete"
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-10-18T13:35:08.551858+00:00"
     },
     {
       "@id": "https://repolex.ai/r/explosion/weasel/commit/f9424269e2291218a21f423615676bd3e3c2a82b",
