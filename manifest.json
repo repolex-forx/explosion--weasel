@@ -165,6 +165,227 @@
       ],
       "ast": [
         "aggregate/ast/9a0724d4b012ec42552f9463d6ebf56a5460c152/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/9a0724d4b012ec42552f9463d6ebf56a5460c152.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "confection",
+          "ecosystem": "PYPI",
+          "version": "0.0.4",
+          "githubOrg": "explosion",
+          "githubRepo": "confection",
+          "githubCommit": "f950fe02d0de11ad035e7b91848fe3a76d6b7830",
+          "githubTag": "v0.0.4",
+          "githubUrl": "https://github.com/explosion/confection",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "wasabi",
+          "ecosystem": "PYPI",
+          "version": "0.9.1",
+          "githubOrg": "explosion",
+          "githubRepo": "wasabi",
+          "githubCommit": "4b0fe2c2f5c2c090b229dcedd988a37a76d58a5f",
+          "githubTag": "v0.9.1",
+          "githubUrl": "https://github.com/explosion/wasabi",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "srsly",
+          "ecosystem": "PYPI",
+          "version": "2.4.3",
+          "githubOrg": "explosion",
+          "githubRepo": "srsly",
+          "githubCommit": "63a8a1cc4c645dd964429d74565114422f3cb940",
+          "githubTag": "v2.4.3",
+          "githubUrl": "https://github.com/explosion/srsly",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "typer",
+          "ecosystem": "PYPI",
+          "version": "0.3.0",
+          "githubOrg": "fastapi",
+          "githubRepo": "typer",
+          "githubCommit": "f5682d31104020f7b45458e2d0d0a9c0449a5b2c",
+          "githubTag": "0.3.0",
+          "githubUrl": "https://github.com/fastapi/typer",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "cloudpathlib",
+          "ecosystem": "PYPI",
+          "version": "0.7.0",
+          "githubOrg": "drivendataorg",
+          "githubRepo": "cloudpathlib",
+          "githubCommit": "047eeeebfd48803286fdd325d541d2a0f0e04213",
+          "githubTag": "v0.7.0",
+          "githubUrl": "https://github.com/drivendataorg/cloudpathlib",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "smart-open",
+          "ecosystem": "PYPI",
+          "version": "5.2.1",
+          "githubOrg": "piskvorky",
+          "githubRepo": "smart_open",
+          "githubCommit": "b3286afa999edddd1f1acafdf4486ffd8f559c3f",
+          "githubTag": "v5.2.1",
+          "githubUrl": "https://github.com/piskvorky/smart_open",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "requests",
+          "ecosystem": "PYPI",
+          "version": "2.13.0",
+          "githubOrg": "psf",
+          "githubRepo": "requests",
+          "githubCommit": "b2289cd2d5d21bd31cf4a818a4e0ff6951b2317a",
+          "githubTag": "v2.13.0",
+          "githubUrl": "https://github.com/psf/requests",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "pydantic",
+          "ecosystem": "PYPI",
+          "version": "1.7.4",
+          "githubOrg": "pydantic",
+          "githubRepo": "pydantic",
+          "githubCommit": "e3d1c161d79d54e0e2d549f96e7b458d74088205",
+          "githubTag": "v1.7.4",
+          "githubUrl": "https://github.com/pydantic/pydantic",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "packaging",
+          "ecosystem": "PYPI",
+          "version": "20.0",
+          "githubOrg": "pypa",
+          "githubRepo": "packaging",
+          "githubCommit": "47d40f640fddb7c97b01315419b6a1421d2dedbb",
+          "githubTag": "20.0",
+          "githubUrl": "https://github.com/pypa/packaging",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "black",
+          "ecosystem": "PYPI",
+          "version": "22.3.0",
+          "githubOrg": "psf",
+          "githubRepo": "black",
+          "githubCommit": "ae2c0758c9e61a385df9700dc9c231bf54887041",
+          "githubTag": "22.3.0",
+          "githubUrl": "https://github.com/psf/black",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "pytest",
+          "ecosystem": "PYPI",
+          "version": "5.2.0",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest",
+          "githubCommit": "068ef90b92a9e9205af31cb3d82e7d2a433ff969",
+          "githubTag": "5.2.0",
+          "githubUrl": "https://github.com/pytest-dev/pytest",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "mypy",
+          "ecosystem": "PYPI",
+          "version": "1.5.0",
+          "githubOrg": "python",
+          "githubRepo": "mypy",
+          "githubCommit": "a6bd80ed8c91138ce6112b5ce71fc406d426cd01",
+          "githubTag": "v1.5.0",
+          "githubUrl": "https://github.com/python/mypy",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "types-requests",
+          "ecosystem": "PYPI",
+          "version": "2.33.0.20261030",
+          "githubOrg": "python",
+          "githubRepo": "typeshed",
+          "githubUrl": "https://github.com/python/typeshed",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "types-setuptools",
+          "ecosystem": "PYPI",
+          "version": "57.0.0",
+          "githubOrg": "python",
+          "githubRepo": "typeshed",
+          "githubUrl": "https://github.com/python/typeshed",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "ruff",
+          "ecosystem": "PYPI",
+          "version": "0.0.259",
+          "githubOrg": "astral-sh",
+          "githubRepo": "ruff",
+          "githubCommit": "f58345dee32177d17ca323a2d60a020a3c7943a4",
+          "githubTag": "v0.0.259",
+          "githubUrl": "https://github.com/astral-sh/ruff",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "isort",
+          "ecosystem": "PYPI",
+          "version": "5.12.0",
+          "githubOrg": "PyCQA",
+          "githubRepo": "isort",
+          "githubCommit": "e44834b7b294701f596c9118d6c370f86671a50d",
+          "githubTag": "5.12.0",
+          "githubUrl": "https://github.com/PyCQA/isort",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "pre-commit",
+          "ecosystem": "PYPI",
+          "version": "3.2.0",
+          "githubOrg": "pre-commit",
+          "githubRepo": "pre-commit",
+          "githubCommit": "df2cada973da6ee689cbc8e323caccf5c00df92c",
+          "githubTag": "v3.2.0",
+          "githubUrl": "https://github.com/pre-commit/pre-commit",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "pydantic-core",
+          "ecosystem": "PYPI",
+          "version": "2.50.5",
+          "githubOrg": "pydantic",
+          "githubRepo": "pydantic",
+          "githubUrl": "https://github.com/pydantic/pydantic",
+          "source": "lsp",
+          "raw_name": "pydantic_core",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/pydantic_core/_pydantic_core/__init__.pyi"
+        },
+        {
+          "packageName": "click",
+          "ecosystem": "PYPI",
+          "version": "8.5.1",
+          "githubOrg": "pallets",
+          "githubRepo": "click",
+          "githubCommit": "cf19179e8e2fd54c601378cec9e0d21bb12b6fb1",
+          "githubTag": "8.5.1",
+          "githubUrl": "https://github.com/pallets/click",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/click/exceptions.py"
+        },
+        {
+          "packageName": "setuptools",
+          "ecosystem": "PYPI",
+          "version": "84.2.1",
+          "githubOrg": "pypa",
+          "githubRepo": "setuptools",
+          "githubCommit": "3895f9829fc0e51882981773a823a658eb1d1636",
+          "githubTag": "v84.2.1",
+          "githubUrl": "https://github.com/pypa/setuptools",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/setuptools/__init__.py"
+        }
       ]
     }
   ],

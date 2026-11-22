@@ -1,0 +1,19 @@
+[2026-11-22T00:16:04Z] === ENRICH ITERATION 1 START | repo=explosion/weasel sha=9a0724d4 ===
+[2026-11-22T00:16:04Z] [iter=1] PHASE START: enrich repo=explosion/weasel sha=9a0724d4 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/9a0724d4-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/9a0724d4b012ec42552f9463d6ebf56a5460c152.nq.gz
+[2026-11-22T00:16:17Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-22T00:16:18Z] [iter=1] AST store loaded triples=144146 load_secs=1 mem_mb=275 MB
+[2026-11-22T00:16:18Z] [iter=1] Step 2: Finding LSP targets mem_mb=275 MB
+[2026-11-22T00:16:19Z] [iter=1] LSP targets found call_sites=972 imports=149 extends=8 implements=0 secs=0
+[2026-11-22T00:16:19Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=275 MB
+[2026-11-22T00:16:19Z] [iter=1] Position index built positions=9693 nodes_with_types=12967 secs=0 mem_mb=275 MB
+[2026-11-22T00:16:19Z] [iter=1] Step 3: Starting LSP resolution mem_mb=275 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T00:16:19Z] [iter=1] Resolving target type target_type=call_site count=972
+[2026-11-22T00:16:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.5 files_done=20 resolved=547 errors=0 current=weasel/util/hashing.py
+[2026-11-22T00:16:45Z] [iter=1] Target type resolved target_type=call_site resolved=658 errors=0 secs=26 mem_mb=275 MB
+[2026-11-22T00:16:45Z] [iter=1] Resolving target type target_type=import_statement count=149
+[2026-11-22T00:16:47Z] [iter=1] Target type resolved target_type=import_statement resolved=111 errors=0 secs=2 mem_mb=275 MB
+[2026-11-22T00:16:47Z] [iter=1] Resolving target type target_type=extends_clause count=8
+[2026-11-22T00:16:49Z] [iter=1] Target type resolved target_type=extends_clause resolved=8 errors=0 secs=1 mem_mb=275 MB
+[2026-11-22T00:16:57Z] [iter=1] Step 5: Writing final enrichment file triples=11862
+[2026-11-22T00:16:57Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/9a0724d4b012ec42552f9463d6ebf56a5460c152.nq.gz size_kb=223
+[2026-11-22T00:16:57Z] [iter=1] PHASE END: enrich elapsed_s=53 elapsed_min=0.9 total_triples=11862
